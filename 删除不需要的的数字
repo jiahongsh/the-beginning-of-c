@@ -11,7 +11,7 @@ int main() {
 		printf("%d", arr[k]);
 	}
 	printf("\n");
-	printf("请输入要删除的数字");
+	printf("璇疯緭鍏ヨ鍒犻櫎鐨勬暟");
 	scanf_s("%d", &del);
 	
 	for (i = 0; i < 9; i++) {
