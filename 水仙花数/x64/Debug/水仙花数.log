@@ -1,0 +1,3 @@
+﻿  test.cpp
+C:\Users\86133\Desktop\可\水仙花数\test.cpp(18,12): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  水仙花数.vcxproj -> C:\Users\86133\Desktop\可\水仙花数\x64\Debug\水仙花数.exe
