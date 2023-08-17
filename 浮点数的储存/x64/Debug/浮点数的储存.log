@@ -1,0 +1,3 @@
+﻿  test.c
+C:\Users\86133\Desktop\可\浮点数的储存\test.c(5,9): warning C4133: “初始化”: 从“int *”到“float *”的类型不兼容
+  浮点数的储存.vcxproj -> C:\Users\86133\Desktop\可\浮点数的储存\x64\Debug\浮点数的储存.exe
