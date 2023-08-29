@@ -1,0 +1,14 @@
+﻿  test.c
+E:\c语言\c代码2023\数组名\test.c(6,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+E:\c语言\c代码2023\数组名\test.c(6,9): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 1 冲突
+E:\c语言\c代码2023\数组名\test.c(7,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+E:\c语言\c代码2023\数组名\test.c(7,9): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 1 冲突
+E:\c语言\c代码2023\数组名\test.c(8,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int (*)[10]”
+E:\c语言\c代码2023\数组名\test.c(8,9): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int (*)[10]" 的参数 1 冲突
+E:\c语言\c代码2023\数组名\test.c(9,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int (*)[10]”
+E:\c语言\c代码2023\数组名\test.c(9,9): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int (*)[10]" 的参数 1 冲突
+E:\c语言\c代码2023\数组名\test.c(10,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+E:\c语言\c代码2023\数组名\test.c(10,9): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 1 冲突
+E:\c语言\c代码2023\数组名\test.c(11,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+E:\c语言\c代码2023\数组名\test.c(11,9): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 1 冲突
+  数组名.vcxproj -> E:\c语言\c代码2023\数组名\x64\Debug\数组名.exe
