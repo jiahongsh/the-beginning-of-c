@@ -19,6 +19,7 @@ void print2(int(*p)[5], int c, int r) {
 		int j = 0;
 		for (j = 0; j < r; j++) {
 			printf("%d ", *((*p+i)+j));
+            //printf("%d",arr[i][j]);
 		}
 		printf("\n");
 	}
