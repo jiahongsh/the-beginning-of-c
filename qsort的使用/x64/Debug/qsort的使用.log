@@ -1,0 +1,4 @@
+﻿  test.c
+E:\c语言\c代码2023\qsort的使用\test.c(19,2): warning C4013: “qsort”未定义；假设外部返回 int
+E:\c语言\c代码2023\qsort的使用\test.c(14): warning C4715: “cmp”: 不是所有的控件路径都返回值
+  qsort的使用.vcxproj -> E:\c语言\c代码2023\qsort的使用\x64\Debug\qsort的使用.exe
