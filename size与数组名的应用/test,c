@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+	char arr[] = "abcdef";
+	printf("%d\n", sizeof(arr));//7
+	printf("%d\n", sizeof(arr+0));//4
+	printf("%d\n", sizeof(*arr));//1
+	printf("%d\n", sizeof(arr[1]));//1
+	printf("%d\n", sizeof(&arr+1));//4
+	printf("%d\n", sizeof(&arr[0]+1));//4
+		return 0;
+	}
