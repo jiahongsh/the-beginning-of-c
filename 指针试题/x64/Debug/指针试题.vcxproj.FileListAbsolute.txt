@@ -1,1 +1,2 @@
 E:\c语言\c代码2023\指针试题\x64\Debug\指针试题.exe
+D:\the-beginning-of-c\指针试题\x64\Debug\指针试题.exe

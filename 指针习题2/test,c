@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int main() {
+	int a[] = { 1,2,3,4 };
+	int* prt1 = (int*)(&a + 1);
+	int* ptr2 = (int*)((int)a + 1);
+	printf("%x %x", prt1[-1],*prt2);
+	return 0;
+}
