@@ -1,0 +1,3 @@
+﻿  test.c
+E:\c语言\c代码2023\改数字（习题）\test.c(22,16): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  改数字（习题）.vcxproj -> E:\c语言\c代码2023\改数字（习题）\x64\Debug\改数字（习题）.exe
