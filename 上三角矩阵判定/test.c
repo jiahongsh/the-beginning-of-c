@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
 int main() {
@@ -25,12 +25,14 @@ int main() {
 			if (i > j) {
 				if (arr[i][j] != 0) {
 					flag = 0;
-				}
+                    goto end;
+                    				}
 			}
 		  }
 		}
 
 	//判定
+    end:
 	if (flag ==1) {
 		printf("yes\n");
 	}
