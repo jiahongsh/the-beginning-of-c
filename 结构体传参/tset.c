@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 struct str {
 		int data[100];
@@ -12,7 +12,7 @@ void printf1(struct str ss) {
 	}
 	printf("%d\n", ss.num);
 }
-//结构体指针接收
+//结构体指针接收（更省内存）
 void printf2(struct str* ps) {
 	int i = 0;
 	for (i = 0; i < 3; i++) {
