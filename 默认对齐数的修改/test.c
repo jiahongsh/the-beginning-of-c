@@ -3,13 +3,13 @@
 
 #pragma pack(4)
 struct s {
-	int i;
-	double j;
+	int i;//0~3
+	double j;//4~11
 };
 #pragma pack()
 struct s1 {
-	int i;
-	double j;
+	int i;）//0~3
+	double j;//8~15
 };
 int main() {
 	printf("%d\n", sizeof(struct s));
