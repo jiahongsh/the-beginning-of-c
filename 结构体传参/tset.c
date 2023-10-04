@@ -12,8 +12,8 @@ void printf1(struct str ss) {
 	}
 	printf("%d\n", ss.num);
 }
-//结构体指针接收（更省内存）
-void printf2(struct str* ps) {
+//结构体指针接收（更省内存），使用const更安全
+void printf2(const struct str* ps) {
 	int i = 0;
 	for (i = 0; i < 3; i++) {
 		printf("%d ", ps->data[i]);
