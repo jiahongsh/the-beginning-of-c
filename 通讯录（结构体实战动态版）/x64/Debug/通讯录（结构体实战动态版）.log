@@ -1,0 +1,6 @@
+﻿  contact.c
+E:\c语言\c代码2023\通讯录（结构体实战动态版）\contact.c(7,1): warning C4005: “max”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdlib.h(1282,1): message : 参见“max”的前一个定义
+  test.c
+  正在生成代码...
+  通讯录（结构体实战动态版）.vcxproj -> E:\c语言\c代码2023\通讯录（结构体实战动态版）\x64\Debug\通讯录（结构体实战动态版）.exe
