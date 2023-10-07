@@ -1,14 +1,15 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-void test2(char*p) {
-	p = (char*)malloc(40);//pµÄĞŞ¸Ä²»»áÓ°Ïìstr£¬pÉêÇëÄÚ´æ£¬³ÌĞò½áÊøpÏú»Ù£¬ÄÚ´æĞ¹Â©
+void test2(char*p) {//æ­¤å¤„ç”¨char**pæ¥æ¥æ”¶
+	p = (char*)malloc(40);//pçš„ä¿®æ”¹ä¸ä¼šå½±å“strï¼Œpç”³è¯·å†…å­˜ï¼Œç¨‹åºç»“æŸpé”€æ¯ï¼Œå†…å­˜æ³„æ¼
 }
 void test() {
 
 	char* str = NULL;
-	test2(str);
-	strcpy(str, "hello world");//strÊÇ¿ÕÖ¸Õë£¬²»ÄÜ¿½±´½ø×Ö·û´®£¬±¨´í
+	test2(str);//æ”¹ä¸º&stræ‰ä¼šå½±å“str
+	strcpy(str, "hello world");//stræ˜¯ç©ºæŒ‡é’ˆï¼Œä¸èƒ½æ‹·è´è¿›å­—ç¬¦ä¸²ï¼ŒæŠ¥é”™
+    //æ­¤å¤„å†…å­˜ä¹Ÿæœªé‡Šæ”¾
 	printf("%s\n", str);
 }
 
