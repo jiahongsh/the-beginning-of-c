@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -12,6 +12,8 @@ void con(char** p) {
 	con(&str);
 	strcpy(str, "hello");
 	printf(str);
+    free(str);
+    str=NULL;
 	}
 
 	
