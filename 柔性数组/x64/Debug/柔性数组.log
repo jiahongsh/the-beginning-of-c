@@ -1,0 +1,4 @@
+﻿  test.c
+E:\c语言\c代码2023\柔性数组\test.c(8,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+E:\c语言\c代码2023\柔性数组\test.c(8,9): message : 请考虑在格式字符串中使用“%zd”
+  柔性数组.vcxproj -> E:\c语言\c代码2023\柔性数组\x64\Debug\柔性数组.exe
