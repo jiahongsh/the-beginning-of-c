@@ -5,15 +5,16 @@
 #include<errno.h>
 
 int main() {
-	//FILE* pf = fopen("test.txt", "w"); //Ð´ÎÄ¼þ
-	FILE* pf = fopen("test.txt", "r");//¶ÁÎÄ¼þ
-	//Ð´ÎÄ¼þ
+	//FILE* pf = fopen("test.txt", "w"); //å†™æ–‡ä»¶
+	FILE* pf = fopen("test.txt", "r");//è¯»æ–‡ä»¶
+	//å†™æ–‡ä»¶
 	/*char i = 0;
 	for (i = 'a'; i < 'z'; i++) {
 		fputc(i, pf);
 	}*/
-	//¶ÁÎÄ¼þ
-
+	//è¯»æ–‡ä»¶
+    
+    //å®šä½æ–‡ä»¶ä½ç½®
 	fseek(pf, 2, SEEK_SET);
 int  ch = fgetc(pf);
 printf("%c ", ch);
@@ -27,7 +28,7 @@ printf("%c ", ch);
 
 
 
-	//¹Ø±ÕÎÄ¼þ
+	//å…³é—­æ–‡ä»¶
 	fclose(pf);
 	pf = NULL;
 	return 0;
