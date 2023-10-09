@@ -1,0 +1,4 @@
+﻿  test.c
+E:\c语言\c代码2023\sscanf函数和sprintf函数的使用\test.c(16,14): warning C4477: “sscanf”: 格式字符串“%f”需要类型“float *”的参数，但可变参数 3 拥有了类型“double *”
+E:\c语言\c代码2023\sscanf函数和sprintf函数的使用\test.c(16,14): message : 请考虑在格式字符串中使用“%lf”
+  sscanf函数和sprintf函数的使用.vcxproj -> E:\c语言\c代码2023\sscanf函数和sprintf函数的使用\x64\Debug\sscanf函数和sprintf函数的使用.exe
