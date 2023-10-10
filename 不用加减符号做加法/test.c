@@ -1,4 +1,15 @@
-//Ð´Ò»¸öº¯Êý£¬ÇóÁ½¸öÕûÊýÖ®ºÍ£¬ÒªÇóÔÚº¯ÊýÌåÄÚ²»µÃÊ¹ÓÃ + ¡¢ - ¡¢ * ¡¢ / ËÄÔòÔËËã·ûºÅ¡£
-
-
+//å†™ä¸€ä¸ªå‡½æ•°ï¼Œæ±‚ä¸¤ä¸ªæ•´æ•°ä¹‹å’Œï¼Œè¦æ±‚åœ¨å‡½æ•°ä½“å†…ä¸å¾—ä½¿ç”¨ + ã€ - ã€ * ã€ / å››åˆ™è¿ç®—ç¬¦å·ã€‚
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main(){
+    int n=0;
+    int m=0;
+   scanf("%d %d",&n,&m);
+   int i=0;
+   for(i=0;i<m;i++){
+       n++;
+   }
+   printf("%d",n);
+    return 0;
+}
 
