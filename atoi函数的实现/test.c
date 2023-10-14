@@ -1,9 +1,10 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
 #include<assert.h>
 #include<string.h>
 #include<ctype.h>
+#include<limits.h>
 enum status {
 	VALID,//0
 	INVALID//1
@@ -35,16 +36,21 @@ my_atoi(char* arr) {
 		
 	while (*arr) {
 		if (isdigit(*arr)) {
-			st = st * 10 + (*arr -'0');
-		}
+			st = st * 10 +flag *(*arr -'0');
+            if(st>INT_MAX||st<INT_MIN){
+                    return 0;
+            }
+            	}
 		else {
-			return flag*st;
+			return st;
 		}
 		arr++;
 
 	}
-	str = VALID;
-	return flag * st;
+    if(*arr=='\0'){
+        str=VALID
+    }
+	return  st;
 }
 
 int main() {
