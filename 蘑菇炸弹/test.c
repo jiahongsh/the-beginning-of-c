@@ -2,22 +2,21 @@
 #include <stdlib.h>
 
 int main() {
-
-    int i = 0;
     int n = 0;
-    int input = 0;
     scanf("%d", &n);
 
-    int arr[100] = { 0 };
+    int*arr=(int*)malloc(sizeof(int)*n);
+    int i=0;
     for (i = 0; i < n; i++) {
-        scanf("%d", &input);
-        arr[i] = input;
+        scanf("%d", &arr[i]);
+       
     }
-
+  int count=0;
     for (i = 1; i < n - 1; i++) {
         if (arr[i] > (arr[i - 1] + arr[i + 1])) {
-            printf("%d ", arr[i]);
+          count++
         }
     }
+    printf("%d",count);
     return 0;
 }
