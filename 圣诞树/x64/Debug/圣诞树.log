@@ -1,0 +1,7 @@
+﻿  test.c
+F:\c语言\c代码2023\圣诞树\圣诞树\test.c(90,27): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+F:\c语言\c代码2023\圣诞树\圣诞树\test.c(90,44): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+F:\c语言\c代码2023\圣诞树\圣诞树\test.c(98,22): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+F:\c语言\c代码2023\圣诞树\圣诞树\test.c(117,25): warning C4305: “函数”: 从“double”到“float”截断
+F:\c语言\c代码2023\圣诞树\圣诞树\test.c(112,24): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  圣诞树.vcxproj -> F:\c语言\c代码2023\圣诞树\x64\Debug\圣诞树.exe
